@@ -18,10 +18,13 @@ ScrollReveal({
   origin: 'top',
   distance: '30px',
   duration: 700
-}).reveal(`'
+}).reveal(`
   #home, 
   #home img, 
   #home .stats, 
-  #services',
+  #services,
   #services header,
-  #services .card`)
+  #services .card,
+  #about,
+  #about header,
+  #about .content`)
