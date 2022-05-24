@@ -486,11 +486,19 @@ body.menu-expanded button path {
     display: grid;
   }
 
+  .col-a {
+    grid-area: A;
+  }
+
+  .col-b {
+    grid-area: B;
+  }
+
   section {
     padding-block: 16rem;
   }
 
-  section h2 {
+  section header h2 {
     font-size: 4rem;
     line-height: 5.2rem;
   }
@@ -630,13 +638,8 @@ body.menu-expanded button path {
   }
 
   #home .col-a {
-    grid-area: A;
     text-align: left;
     align-self: center;
-  }
-
-  #home .col-b {
-    grid-area: B;
   }
 
   #home h1 {
@@ -675,5 +678,68 @@ body.menu-expanded button path {
   #services h2 {
     width: 47rem;
     margin-inline: auto;
+  }
+
+  #services .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #services .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+
+  /** ABOUT **/
+  #about .wrapper {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'B A';
+    gap: 6.7rem;
+  }
+
+  #about .col-a {
+    align-self: center;
+  }
+
+  #about .content p {
+    margin-bottom: 0;
+  }
+
+  /** CONTACT **/
+  #contact .wrapper {
+    grid-template-columns: 1fr 57.5rem;
+    grid-template-areas: 'A B';
+  }
+
+  #contact h2 {
+    width: 30.4rem;
+  }
+
+  #contact .wrapper .col-a {
+    align-self: center;
+  }
+
+  /** FOOTER **/
+  #footer {
+    padding-block: 8rem;
+  }
+
+  #footer .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'A B';
+  }
+
+  #footer .col-a {
+    align-self: center;
+  }
+
+  #footer .col-b {
+    align-self: center;
+    justify-self: flex-end;
+  }
+
+  #footer p {
+    margin-bottom: 0;
   }
 }
