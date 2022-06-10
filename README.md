@@ -12,4 +12,5 @@ Programming bootcamp HTML5, CSS, JS.
 
 This project is for the Rocketseat.
 
-# Live version here: https://ju314.github.io/nlw-rocketseat/
+# Live version here:
+https://ju314.github.io/nlw-rocketseat/
