@@ -12,4 +12,4 @@ Programming bootcamp HTML5, CSS, JS.
 
 This project is for the Rocketseat.
 
-# Live version here: <a targey="_black" href="https://ju314.github.io/nlw-rocketseat/">Link</a>
+# Live version here: <a target="_black" href="https://ju314.github.io/nlw-rocketseat/">Link</a>
